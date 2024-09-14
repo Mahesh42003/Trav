@@ -1,0 +1,71 @@
+.text-align-of-land-page-heading {
+    text-align: center;
+    font-size: 22px;
+    color: cornflowerblue;
+}
+
+.flexing-of-nav-items {
+    display: flex;
+    justify-content: space-between;
+} 
+
+@media screen and (max-width:768px){
+    .flexing-of-nav-items{
+        display: flex;
+        justify-content: space-between;
+        width: 300%;
+    }
+    .products-route-decoration {
+        text-decoration: none;
+        font-size: 30px;
+    }
+    .log-out-styling {
+        border: none;
+        border-style: solid;
+        background-color: blueviolet;
+        color: #ffffff; 
+        border-radius: 10px;
+        font-size: 30px;
+    }
+    .text-align-of-land-page-heading {
+        text-align: center;
+        margin-top: 200px;
+        color: cornflowerblue;
+        margin-left: 300px;
+        font-size: 30px;
+        width: 200%;
+    }
+    .styling-of-outfit-image {
+        margin-left: 450px;
+        margin-top: 100px;
+    }
+}
+
+.products-route-decoration {
+    text-decoration: none;
+
+}
+
+.styling-of-outfit-image {
+    margin-left: 450px;
+}
+
+.log-out-styling {
+    border: none;
+    border-style: solid;
+    background-color: blueviolet;
+    color: #ffffff; 
+    border-radius: 10px;
+}
+@media screen and (max-width:768px){
+    .route-styling {
+        color: darkcyan;
+        text-decoration: none;
+        font-size: 30px;
+    }
+}
+.route-styling {
+    color: darkcyan;
+    text-decoration: none;
+    
+}

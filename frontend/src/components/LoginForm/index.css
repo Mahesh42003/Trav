@@ -1,0 +1,38 @@
+
+
+.background-of-login-form {
+    background-color: #f3f7f2;
+    height: 60vh; 
+    width: auto; 
+    border-radius: 10px;
+    
+} 
+
+.flexing-of-inside-item { 
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.flexing-of-total-login-item {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.flexing-of-username-and-password {
+    display: flex; 
+    flex-direction: column;
+}
+
+.submit-button-styling {
+    margin-top: 20px; 
+    width: 100px; 
+    height: 32px; 
+    background-color: blueviolet; 
+    color: #ffffff;  
+    border-width: 0px; 
+    border-radius: 10px; 
+    align-self: center;
+}
